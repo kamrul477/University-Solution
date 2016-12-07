@@ -50,7 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain Classes\Course.cs" />
+    <Compile Include="Domain Classes\Degree.cs" />
+    <Compile Include="Domain Classes\DegreeRequirment.cs" />
+    <Compile Include="Domain Classes\DegreeType.cs" />
     <Compile Include="Domain Classes\FacultyMember.cs" />
+    <Compile Include="Domain Classes\Grade.cs" />
     <Compile Include="Enum\ApplicationStaus.cs" />
     <Compile Include="Domain Classes\Application.cs" />
     <Compile Include="Domain Classes\Department.cs" />
