@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.UniversitySolution.Application" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQDAAAACIASAAAAAAAgAQAAAAAAAhhAACABg=</HashCode>
+      <FileName>Domain Classes\Application.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sessions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.UniversitySolution.Course">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAIQAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Domain Classes\Course.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Students" />
+      <Property Name="Degrees" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.UniversitySolution.Degree">
+    <Position X="5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQAAgAAAAAAAAAAAQAAAAAAAAEAAAA=</HashCode>
+      <FileName>Domain Classes\Degree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Grades" />
+      <Property Name="DegreeRequirments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.UniversitySolution.DegreeRequirment">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain Classes\DegreeRequirment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.UniversitySolution.DegreeType">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACEACAAAAAAAAAAA=</HashCode>
+      <FileName>Domain Classes\DegreeType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.UniversitySolution.Department">
+    <Position X="2.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Domain Classes\Department.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Students" />
+      <Property Name="FacultyMembers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.UniversitySolution.FacultyMember">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAABACIAAAAAAAAAAAQAAAAAAAAhAACABg=</HashCode>
+      <FileName>Domain Classes\FacultyMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.UniversitySolution.Grade">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Domain Classes\Grade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.UniversitySolution.Session" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain Classes\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.UniversitySolution.Student" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAQCIAIAAAAAAAAAQAAAAAAAAhAACABg=</HashCode>
+      <FileName>Domain Classes\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.UniversitySolution.University">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAACAAAAAAIAAAEAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Domain Classes\University.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Students" />
+      <Property Name="Departments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="System.Collections.Generic.ICollection&lt;T&gt;" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
