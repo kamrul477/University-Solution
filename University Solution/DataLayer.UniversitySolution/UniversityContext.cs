@@ -15,5 +15,11 @@ namespace DataLayer.UniversitySolution
         public DbSet<Course> Courses { get; set; }
         public DbSet<Degree> Degrees { get; set; }
         public DbSet<DegreeRequirment> DegreeRequirments { get; set; }
+        public DbSet<DegreeType> DegreeTypes { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<FacultyMember> FacultyMembers { get; set; }
+        public DbSet<Grade> Grades { get; set; } 
+        public DbSet< Session> Sessions { get; set; }
+        public DbSet< Student> Students { get; set; }  
     }
 }
