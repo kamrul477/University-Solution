@@ -43,7 +43,8 @@ namespace Domain.UniversitySolution
 
         public Session Session { get; set; }
         public Course Course { get; set; }
-
+        public University University { get; set; }
+        public Department Department { get; set; }
         #endregion
 
 

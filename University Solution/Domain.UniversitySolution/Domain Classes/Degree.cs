@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace Domain.UniversitySolution
         public string DegreeTitle { get; set; }
 
         //navigational properties
-
+        public Course Course { get; set; }
         public DegreeType DegreeType { get; set; }
         public ICollection<DegreeRequirment> DegreeRequirments { get; set; }
         public ICollection<Grade> Grades { get; set; }

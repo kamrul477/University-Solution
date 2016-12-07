@@ -14,5 +14,10 @@ namespace Domain.UniversitySolution
 
 
 
+        //navigational property
+        public Degree Degree { get; set; }
+
+
+
     }
 }

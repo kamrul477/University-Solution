@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Domain.UniversitySolution.Application" Collapsed="true">
-    <Position X="0.5" Y="3" Width="1.5" />
+  <Class Name="Domain.UniversitySolution.Application">
+    <Position X="0.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAQDAAAACIASAAAAAAAgAQAAAAAAAhhAACABg=</HashCode>
       <FileName>Domain Classes\Application.cs</FileName>
@@ -11,43 +11,56 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.Course">
-    <Position X="5" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIEAAAAIQAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIEAAAAIQAAAAABAAAAAAAAEAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>Domain Classes\Course.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Department" />
+    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Students" />
       <Property Name="Degrees" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.Degree">
-    <Position X="5" Y="2.5" Width="1.75" />
+    <Position X="6" Y="4.75" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAEAAAQAAgAAAAAAAAAAAQAAAAAAAAEAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAEAAAQAAoAAAAAAAAAAAQAAAAAAAAEAAAA=</HashCode>
       <FileName>Domain Classes\Degree.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+      <Property Name="DegreeType" />
+    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Grades" />
       <Property Name="DegreeRequirments" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.DegreeRequirment">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="7" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Domain Classes\DegreeRequirment.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Degree" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.DegreeType">
-    <Position X="5" Y="4.25" Width="1.5" />
+    <Position X="5" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACEACAAAAAAAAAAA=</HashCode>
       <FileName>Domain Classes\DegreeType.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Degrees" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.Department">
-    <Position X="2.5" Y="2.5" Width="1.75" />
+    <Position X="3" Y="2" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
       <FileName>Domain Classes\Department.cs</FileName>
@@ -55,6 +68,7 @@
     <ShowAsCollectionAssociation>
       <Property Name="Students" />
       <Property Name="FacultyMembers" />
+      <Property Name="Courses" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.FacultyMember">
@@ -65,25 +79,34 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Domain.UniversitySolution.Grade">
-    <Position X="7.25" Y="2.75" Width="1.5" />
+    <Position X="9.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>Domain Classes\Grade.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Degree" />
+    </ShowAsAssociation>
   </Class>
-  <Class Name="Domain.UniversitySolution.Session" Collapsed="true">
-    <Position X="0.5" Y="4.75" Width="1.5" />
+  <Class Name="Domain.UniversitySolution.Session">
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Domain Classes\Session.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Domain.UniversitySolution.Student" Collapsed="true">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQCAAAQCIAIAAAAAAAAAQAAAAAAAAhAACABg=</HashCode>
+      <HashCode>AAAAAAAAQCAAAQCIAIAAAAAAEAAQAAIAAAAAhAACABg=</HashCode>
       <FileName>Domain Classes\Student.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+      <Property Name="Session" />
+      <Property Name="University" />
+      <Property Name="Department" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.University">
     <Position X="0.5" Y="0.5" Width="1.5" />

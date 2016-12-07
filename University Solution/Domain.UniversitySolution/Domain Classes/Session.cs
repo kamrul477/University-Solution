@@ -10,7 +10,7 @@ namespace Domain.UniversitySolution
     public class Session
     {
         [Key]
-        public Guid TermId { get; set; }
+        public Guid SessionId { get; set; }
 
         public DateTime SessionStarYear { get; set; }
         public DateTime SessionEndYear { get; set; }
