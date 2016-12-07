@@ -58,7 +58,7 @@ namespace Domain.UniversitySolution
 
         //navigation properties
 
-        public virtual ICollection<Session> Termses { get; set; }
+        public virtual ICollection<Session> Sessions { get; set; }
 
 
     }

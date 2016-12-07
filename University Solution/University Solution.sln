@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UniversitySolution", "Domain.UniversitySolution\Domain.UniversitySolution.csproj", "{8154BCD1-5B8A-4B22-9A4A-D48E38E5A35B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer.UniversitySolution", "DataLayer.UniversitySolution\DataLayer.UniversitySolution.csproj", "{01DF284E-1F2E-4C3B-9596-5C243B742FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8154BCD1-5B8A-4B22-9A4A-D48E38E5A35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8154BCD1-5B8A-4B22-9A4A-D48E38E5A35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8154BCD1-5B8A-4B22-9A4A-D48E38E5A35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
