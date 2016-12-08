@@ -20,8 +20,8 @@
       <Property Name="Department" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
-      <Property Name="Students" />
       <Property Name="Degrees" />
+      <Property Name="Students" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.Degree">
@@ -35,8 +35,8 @@
       <Property Name="DegreeType" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
-      <Property Name="Grades" />
       <Property Name="DegreeRequirments" />
+      <Property Name="Grades" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.DegreeRequirment">
@@ -62,13 +62,16 @@
   <Class Name="Domain.UniversitySolution.Department">
     <Position X="3" Y="2" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <HashCode>AAIAAAAAAAAAkAAAAAAAAAAAAAAAAAIAAAAAABAAAAA=</HashCode>
       <FileName>Domain Classes\Department.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="University" />
+    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
+      <Property Name="Courses" />
       <Property Name="Students" />
       <Property Name="FacultyMembers" />
-      <Property Name="Courses" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.FacultyMember">
@@ -91,9 +94,12 @@
   <Class Name="Domain.UniversitySolution.Session">
     <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAABAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Domain Classes\Session.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Application" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Domain.UniversitySolution.Student" Collapsed="true">
     <Position X="3" Y="0.5" Width="1.5" />
@@ -102,8 +108,8 @@
       <FileName>Domain Classes\Student.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Course" />
       <Property Name="Session" />
+      <Property Name="Course" />
       <Property Name="University" />
       <Property Name="Department" />
     </ShowAsAssociation>

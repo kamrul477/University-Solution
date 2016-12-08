@@ -15,5 +15,10 @@ namespace Domain.UniversitySolution
         public DateTime SessionStarYear { get; set; }
         public DateTime SessionEndYear { get; set; }
 
+        #region Navigational properties
+
+        public Application Application { get; set; }
+        #endregion
+
     }
 }
