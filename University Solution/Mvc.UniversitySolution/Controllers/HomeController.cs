@@ -14,9 +14,9 @@ namespace Mvc.UniversitySolution.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            University university = new University { UniversityId = Guid.NewGuid(), UnivesityName = "Dhaka University", UniversitySlogan = "Excellance" };
-            _context.Universities.Add(university);
-            _context.SaveChanges();
+            //University university = new University { UniversityId = Guid.NewGuid(), UnivesityName = "Dhaka University", UniversitySlogan = "Excellance" };
+            //_context.Universities.Add(university);
+            //_context.SaveChanges();
             return View(_context.Universities);
         }
 
