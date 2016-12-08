@@ -9,7 +9,7 @@ using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
 using WebApi.UniversitySolution.Providers;
-using WebApi.UniversitySolution.Models;
+using WebApi.UniversitySolution;
 
 namespace WebApi.UniversitySolution
 {

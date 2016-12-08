@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer.UniversitySolutio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.UniversitySolution", "WebApi.UniversitySolution\WebApi.UniversitySolution.csproj", "{A83CA0FF-B406-48E7-BFCD-DCA2D6CB2C96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.UniversitySolution", "Mvc.UniversitySolution\Mvc.UniversitySolution.csproj", "{16A6E679-8F9F-43CD-9288-6B0E6DFEE7B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A83CA0FF-B406-48E7-BFCD-DCA2D6CB2C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A83CA0FF-B406-48E7-BFCD-DCA2D6CB2C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A83CA0FF-B406-48E7-BFCD-DCA2D6CB2C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A6E679-8F9F-43CD-9288-6B0E6DFEE7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A6E679-8F9F-43CD-9288-6B0E6DFEE7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A6E679-8F9F-43CD-9288-6B0E6DFEE7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A6E679-8F9F-43CD-9288-6B0E6DFEE7B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

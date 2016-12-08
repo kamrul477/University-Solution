@@ -7,13 +7,18 @@ using System.Threading.Tasks;
 using Domain.UniversitySolution;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using MySql.Data.Entity;
 using WebApi.UniversitySolution;
 
 namespace DataLayer.UniversitySolution
 {
+    [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class UniversityContext : DbContext
     {
-        
+        public UniversityContext() :base("DefaultConnection")
+        {
+            
+        }
         public DbSet<Application> Applications { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<Degree> Degrees { get; set; }
