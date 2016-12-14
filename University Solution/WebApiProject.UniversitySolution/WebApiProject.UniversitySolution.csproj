@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UniversityController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -287,6 +288,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer.UniversitySolution\DataLayer.UniversitySolution.csproj">
+      <Project>{01df284e-1f2e-4c3b-9596-5c243b742fae}</Project>
+      <Name>DataLayer.UniversitySolution</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.UniversitySolution\Domain.UniversitySolution.csproj">
+      <Project>{8154bcd1-5b8a-4b22-9a4a-d48e38e5a35b}</Project>
+      <Name>Domain.UniversitySolution</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
