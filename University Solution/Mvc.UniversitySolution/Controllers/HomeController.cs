@@ -10,13 +10,19 @@ namespace Mvc.UniversitySolution.Controllers
 {
     public class HomeController : Controller
     {
-        private UniversityContext _context = new UniversityContext();
+        private  UniversityContext _context = new UniversityContext();
         // GET: Home
         public ActionResult Index()
         {
             //University university = new University { UniversityId = Guid.NewGuid(), UnivesityName = "Dhaka University", UniversitySlogan = "Excellance" };
             //_context.Universities.Add(university);
             //_context.SaveChanges();
+            return View();
+        }
+
+        //get:all the universities
+        public ActionResult UniversityList()
+        {
             return View(_context.Universities);
         }
 

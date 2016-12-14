@@ -13,7 +13,6 @@ namespace Domain.UniversitySolution
     {
         [Key]
         public Guid  UniversityId { get; set; }
-
         public string UnivesityName { get; set; }
         public string UniversitySlogan { get; set; }
      
