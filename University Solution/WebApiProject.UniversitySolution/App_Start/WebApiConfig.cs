@@ -20,9 +20,7 @@ namespace WebApiProject.UniversitySolution
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
 
-            config.EnableCors();
-            config.Formatters.JsonFormatter.SerializerSettings.ContractResolver =
-                                            new CamelCasePropertyNamesContractResolver();
+
 
             // Web API routes
             config.MapHttpAttributeRoutes();
@@ -32,6 +30,10 @@ namespace WebApiProject.UniversitySolution
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
+            config.Formatters.JsonFormatter.SerializerSettings.ContractResolver =
+                                            new CamelCasePropertyNamesContractResolver();
         }
     }
 }

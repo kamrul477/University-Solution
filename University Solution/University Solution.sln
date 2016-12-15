@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UniversitySolution",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer.UniversitySolution", "DataLayer.UniversitySolution\DataLayer.UniversitySolution.csproj", "{01DF284E-1F2E-4C3B-9596-5C243B742FAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiProject.UniversitySolution", "WebApiProject.UniversitySolution\WebApiProject.UniversitySolution.csproj", "{B417BDF4-7D1A-4F38-B575-0C12B30A562D}"
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite.UniversitySolution", "..\..\..\..\Documents\Visual Studio 2015\WebSites\WebSite.UniversitySolution\", "{A6195FE6-FEDB-4531-AD97-3D5733965056}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
@@ -31,6 +29,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite.UniversitySolution"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiService.UniversitySolution", "WebApiService.UniversitySolution\WebApiService.UniversitySolution.csproj", "{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,14 +45,14 @@ Global
 		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B417BDF4-7D1A-4F38-B575-0C12B30A562D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B417BDF4-7D1A-4F38-B575-0C12B30A562D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B417BDF4-7D1A-4F38-B575-0C12B30A562D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B417BDF4-7D1A-4F38-B575-0C12B30A562D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
