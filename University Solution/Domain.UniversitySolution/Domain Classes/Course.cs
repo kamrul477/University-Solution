@@ -18,6 +18,7 @@ namespace Domain.UniversitySolution
         public string CourseDescription { get; set; }
 
         public double Credit { get; set; }
+        
 
         #region Navigarional properties
 
