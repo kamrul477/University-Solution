@@ -7,29 +7,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UniversitySolution",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer.UniversitySolution", "DataLayer.UniversitySolution\DataLayer.UniversitySolution.csproj", "{01DF284E-1F2E-4C3B-9596-5C243B742FAE}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite.UniversitySolution", "..\..\..\..\Documents\Visual Studio 2015\WebSites\WebSite.UniversitySolution\", "{A6195FE6-FEDB-4531-AD97-3D5733965056}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiService.UniversitySolution", "WebApiService.UniversitySolution\WebApiService.UniversitySolution.csproj", "{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FrontEnd.UniversitySolution", "FrontEnd.UniversitySolution\", "{9627A545-F75A-4C31-AF25-FB2F64D86BFA}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_50153"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\Visual Studio 2015\WebSites\WebSite.UniversitySolution\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50153\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60208"
+		Debug.AspNetCompiler.PhysicalPath = "FrontEnd.UniversitySolution\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60208\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_50153"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\Visual Studio 2015\WebSites\WebSite.UniversitySolution\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50153\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60208"
+		Release.AspNetCompiler.PhysicalPath = "FrontEnd.UniversitySolution\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60208\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "50153"
-		SlnRelativePath = "..\..\..\..\Documents\Visual Studio 2015\WebSites\WebSite.UniversitySolution\"
+		VWDPort = "60208"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiService.UniversitySolution", "WebApiService.UniversitySolution\WebApiService.UniversitySolution.csproj", "{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,14 +44,14 @@ Global
 		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01DF284E-1F2E-4C3B-9596-5C243B742FAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6195FE6-FEDB-4531-AD97-3D5733965056}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
