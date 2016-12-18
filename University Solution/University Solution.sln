@@ -9,26 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer.UniversitySolutio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiService.UniversitySolution", "WebApiService.UniversitySolution\WebApiService.UniversitySolution.csproj", "{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FrontEnd.UniversitySolution", "FrontEnd.UniversitySolution\", "{9627A545-F75A-4C31-AF25-FB2F64D86BFA}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_60208"
-		Debug.AspNetCompiler.PhysicalPath = "FrontEnd.UniversitySolution\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60208\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_60208"
-		Release.AspNetCompiler.PhysicalPath = "FrontEnd.UniversitySolution\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60208\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "60208"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angular2.UniversitySolution", "angular2.UniversitySolution\angular2.UniversitySolution.csproj", "{985DF38C-533F-4189-979D-39FC922E3637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,10 +29,10 @@ Global
 		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1583970-BB42-4096-8DF3-BE97A8FDF9EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{9627A545-F75A-4C31-AF25-FB2F64D86BFA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{985DF38C-533F-4189-979D-39FC922E3637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985DF38C-533F-4189-979D-39FC922E3637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985DF38C-533F-4189-979D-39FC922E3637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985DF38C-533F-4189-979D-39FC922E3637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
